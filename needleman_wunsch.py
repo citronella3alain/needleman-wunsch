@@ -9,8 +9,10 @@ tau = -1 # mismatch penalty
 mu = 1 # match reward
 
 #example sentences
-sent1 = "a b c d e f g"
-sent2 = "b b c e g g h i"
+#sent1 = "a b c d e f g"
+#sent2 = "b b c e g g h i"
+sent1 = input("Enter your first sentence:\n")
+sent2 = input("Enter your second sentence:\n")
 print(sent1 + "\n" + sent2)
 set1 = sent1.split()
 set2 = sent2.split()
